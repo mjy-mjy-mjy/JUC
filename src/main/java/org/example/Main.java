@@ -15,6 +15,11 @@ public class Main {
             // for you, but you can always add more by pressing Cmd+F8.
             System.out.println("i = " + i);
 
+//快速排序
+            int[] arr = {1, 3, 5, 2, 4, 6, 8, 10, 9, 7};
+            quickSort(arr, 0, arr.length - 1);
+            for (int i1 : arr) {
+                System.out.print(i1 + " ");
 
 
             }
